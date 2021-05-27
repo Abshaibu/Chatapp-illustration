@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Frontend Mentor | Chat Illustration App</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 2em;
+      color: hsl(271, 36%, 24%);
+    }
+
+    .attribution a {
+      color: hsl(183, 61%, 41%);
+      text-decoration: wavy underline hsl(271, 36%, 24%);
+      text-underline-offset: .2em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!----------------- Background-Violet Bar--------------- -->
+  <div class="sidebar violet-sidebar"></div>
+  <!---------------------------------->
+
+  <!-----------------  Phone Mockup ----------------->
+
+
+  <div class="chat-wrapper">
+    <div class="notch"></div>
+    <div class="chat-header">
+      <div class="chat-header-wrapper">
+        <i class="fas fa-chevron-left"></i>
+        <div class="profile-block">
+          <img class="avatar" src="./images/avatar.jpg" alt="profile picture">
+          <div class="chat-header-text">
+            <h3>Samuel Green</h3>
+            <p>Available to Walk</p>
+          </div>
+        </div>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+    <div class="chat-body">
+      <div class="left-textbox">
+        <p> That sounds great. I’d be happy with that.</p>
+      </div>
+      <div class="left-textbox">
+        <p>Could you send over some pictures of your dog, please?</p>
+      </div>
+      <div class="img-wrapper">
+        <div class="img-block">
+          <img src="./images/dog-image-1.jpg" alt="">
+        </div>
+        <div class="img-block">
+          <img src="./images/dog-image-2.jpg" alt="">
+        </div>
+        <div class="img-block">
+          <img src="./images/dog-image-3.jpg" alt="">
+        </div>
+      </div>
+      <div class="right-textbox">
+        <p>Here are a few pictures. She’s a happy girl!</p>
+      </div>
+      <div class="right-textbox short-text">
+        <p>Can you make it?</p>
+      </div>
+      <div class="left-textbox">
+        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+      </div>
+      <div class="left-textbox price-wrapper">
+        <div class="status-circle"></div>
+        <p>30 minute walk</p>
+        <p class="amount">$29</p>
+      </div>
+      <div class="left-textbox price-wrapper">
+        <div class="status-circle"></div>
+        <p>1 hour walk</p>
+        <p class="amount">$49</p>
+      </div>
+      <div class="text-wrapper">
+        <form action="">
+          <input type="text" name="message" id="message" placeholder="Type a message…">
+          <button class="submit">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!---------------------------------->
+
+  <!----------------- Text Description----------------->
+  <div class="paragraph-holder">
+    <h1>Simple booking</h1>
+    <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to
+      discuss arrangements and make bookings. Once the walk has been completed you can rate
+      your walker and book again all through the chat.</p>
+  </div>
+
+  <!----------------- ---------------->
+
+  <!----------------- Background-grey Bar--------------- -->
+  <div class="sidebar grey-sidebar"></div>
+  <!----------------- ---------------->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.facebook.com/abshaibu2" target="_blank">Shaibu Abdulsalam</a>.
+  </div>
+</body>
+
+</html>

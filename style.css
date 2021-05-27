@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Rubik',
+        sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+form {
+    width: 100%;
+    padding: 0 .5em 0 1.3em;
+}
+
+/* .sidebar {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.violet-sidebar {
+    background-color: hsl(276, 55%, 52%);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: relative;
+    right: 290px;
+}
+
+.grey-sidebar {
+    background-color: hsl(206, 6%, 79%);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    left: 290px;
+} */
+
+.chat-wrapper {
+    width: 80%;
+    max-width: 290px;
+    min-height: 70vh;
+    background: hsl(270, 20%, 96%);
+    border: 12px solid hsl(0, 0%, 100%);
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    position: relative;
+    font-size: .6rem;
+    box-shadow: 0 5px 60px rgb(0 0 0 / 20%);
+}
+
+.notch {
+    width: 50%;
+    min-height: 30px;
+    background: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 70px;
+    border-radius: 20px;
+    top: -10px;
+}
+
+.chat-header-wrapper,
+.price-wrapper, form,
+.profile-block,
+.text-wrapper,
+.chat-header,
+.img-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.chat-header {
+    border-radius: 28px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+    height: 14vh;
+    padding: 1em 1.7em .5em 1.7em;
+    align-self: end;
+}
+
+.chat-header p {
+    font-weight: 400;
+    color: hsl(276, 100%, 81%);
+}
+
+.chat-header h3 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3em;
+}
+
+.chat-header-wrapper {
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.price-wrapper p {
+    flex: 2;
+    margin-left: 1em;
+}
+
+.profile-block,
+p.amount {
+    flex: 1;
+}
+
+.profile-block img {
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.fa-chevron-left,
+.profile-block img {
+    margin-right: 1em;
+}
+
+.chat-body {
+    padding: .7em;
+}
+
+.header-img-block {
+    border-radius: 50%;
+    border: 1px solid purple;
+}
+
+.left-textbox,
+.right-textbox {
+    padding: .9em;
+    border-radius: 15px;
+}
+
+.left-textbox {
+    width: 62%;
+    background: hsl(282deg 21% 92%);
+    color: hsl(284deg 100% 63%);
+    border-bottom-left-radius: 4px;
+}
+
+.img-wrapper {
+    width: 65%;
+    margin-left: auto;
+    margin-top: 1.8em;
+}
+
+.price-wrapper,
+.img-wrapper,
+.chat-header-wrapper {
+    justify-content: space-between;
+}
+
+.img-block img {
+    border-radius: 10px;
+    height: 45px;
+}
+
+.right-textbox {
+    width: 62%;
+    background: hsl(0, 0%, 100%);
+    color: hsl(271, 15%, 43%);
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+.short-text {
+    width: 39%;
+    margin-bottom: 2.3em;
+}
+
+.right-textbox,
+.left-textbox {
+    margin-top: 1em;
+}
+
+.status-circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid hsl(289, 100%, 72%);
+    border-radius: 50%;
+}
+
+.price-wrapper {
+    font-weight: 400;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: hsl(264, 10%, 90%);
+    width: 72%;
+}
+
+.amount {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.text-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    height: 45px;
+    border-radius: 50px;
+    margin: 1.4em 0 .5em;
+}
+
+.text-wrapper form input {
+    width: 70%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 1em;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    display: block;
+    margin-left: auto;
+    height: 30px;
+    width: 30px;
+    background: hsl(271, 36%, 24%);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+i {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+}
+
+.paragraph-holder {
+    width: 90%;
+    color: hsl(271, 36%, 24%);
+    margin: 4em auto 2em;
+}
+
+.paragraph-holder h1 {
+    text-align: center;
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    font-size: 2.7em;
+    margin-bottom: .5em;
+}
+
+.paragraph-holder p {
+    text-align: center;
+    color: hsl(270, 7%, 64%);
+    font-weight: 500;
+    line-height: 1.8;
+}
