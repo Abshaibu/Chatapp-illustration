@@ -20,26 +20,26 @@ form {
 
 .chat-wrapper {
     width: 80%;
-    max-width: 290px;
+    max-width: 270px;
     min-height: 70vh;
     background: hsl(270, 20%, 96%);
-    border: 12px solid hsl(0, 0%, 100%);
+    border: 11px solid hsl(0, 0%, 100%);
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 40px;
     position: relative;
-    font-size: .6rem;
+    font-size: .55rem;
     box-shadow: 0 5px 60px rgb(0 0 0 / 20%);
 }
 
 .notch {
-    width: 50%;
+    width: 53%;
     min-height: 30px;
     background: hsl(0, 0%, 100%);
     position: absolute;
-    left: 70px;
+    left: 60px;
     border-radius: 20px;
-    top: -10px;
+    top: -11px;
 }
 
 .chat-header-wrapper,
@@ -58,7 +58,7 @@ form {
     border-bottom-right-radius: 10px;
     background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
-    height: 14vh;
+    height: 12vh;
     padding: 1em 1.7em .5em 1.7em;
     align-self: end;
 }
@@ -69,7 +69,7 @@ form {
 }
 
 .chat-header h3 {
-    font-weight: 700;
+    font-weight: 500;
     color: hsl(0, 0%, 100%);
     font-size: 1.3em;
 }
@@ -101,7 +101,11 @@ p.amount {
 }
 
 .chat-body {
-    padding: .7em;
+    padding: .79em;
+}
+
+div.f-left-textbox {
+    margin-top: 0.6em;
 }
 
 .header-img-block {
@@ -116,16 +120,16 @@ p.amount {
 }
 
 .left-textbox {
-    width: 62%;
+    width: 60%;
     background: hsl(282deg 21% 92%);
     color: hsl(284deg 100% 63%);
     border-bottom-left-radius: 4px;
 }
 
 .img-wrapper {
-    width: 65%;
+    width: 63%;
     margin-left: auto;
-    margin-top: 1.8em;
+    margin-top: 1.6em;
 }
 
 .price-wrapper,
@@ -136,11 +140,11 @@ p.amount {
 
 .img-block img {
     border-radius: 10px;
-    height: 45px;
+    height: 42px;
 }
 
 .right-textbox {
-    width: 62%;
+    width: 60%;
     background: hsl(0, 0%, 100%);
     color: hsl(271, 15%, 43%);
     margin-left: auto;
@@ -149,8 +153,8 @@ p.amount {
 }
 
 .short-text {
-    width: 39%;
-    margin-bottom: 2.3em;
+    width: 40%;
+    margin-bottom: 1.9em;
 }
 
 .right-textbox,
@@ -159,8 +163,8 @@ p.amount {
 }
 
 .status-circle {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 1px solid hsl(289, 100%, 72%);
     border-radius: 50%;
 }
@@ -170,6 +174,7 @@ p.amount {
     background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     color: hsl(264, 10%, 90%);
     width: 72%;
+    padding: 0.8em;
 }
 
 .amount {
@@ -180,7 +185,7 @@ p.amount {
 
 .text-wrapper {
     background-color: hsl(0, 0%, 100%);
-    height: 45px;
+    height: 38px;
     border-radius: 50px;
     margin: 1.4em 0 .5em;
 }
@@ -189,16 +194,17 @@ p.amount {
     width: 70%;
     height: 25px;
     line-height: 25px;
-    padding-left: 1em;
+    padding-left: .6em;
     border: none;
     outline: none;
+    font-size: 1.3em;
 }
 
 .submit {
     display: block;
     margin-left: auto;
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
     background: hsl(271, 36%, 24%);
     outline: none;
     border: none;
@@ -207,7 +213,7 @@ p.amount {
 
 i {
     color: hsl(0, 0%, 100%);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .paragraph-holder {
@@ -218,7 +224,6 @@ i {
 
 .paragraph-holder h1 {
     text-align: center;
-    color: hsl(271, 36%, 24%);
     font-weight: 500;
     font-size: 2.7em;
     margin-bottom: .5em;
