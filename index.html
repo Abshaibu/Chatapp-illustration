@@ -27,6 +27,7 @@
     .attribution a {
       color: hsl(183, 61%, 41%);
       text-decoration: wavy underline hsl(271, 36%, 24%);
+      -webkit-text-decoration: wavy underline hsl(271, 36%, 24%);
       text-underline-offset: .2em;
     }
   </style>
@@ -35,12 +36,13 @@
 <body>
 
   <!----------------- Background-Violet Bar--------------- -->
-  <div class="sidebar violet-sidebar"></div>
+  <div class="background-sidebar violet-background-sidebar"></div>
+  <div class="background-sidebar grey-background-sidebar"></div>
   <!---------------------------------->
 
   <!-----------------  Phone Mockup ----------------->
 
-
+<div class="container">
   <div class="chat-wrapper">
     <div class="notch"></div>
     <div class="chat-header">
@@ -115,11 +117,7 @@
   </div>
 
   <!----------------- ---------------->
-
-  <!----------------- Background-grey Bar--------------- -->
-  <div class="sidebar grey-sidebar"></div>
-  <!----------------- ---------------->
-
+</div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
