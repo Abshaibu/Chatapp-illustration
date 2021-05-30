@@ -6,7 +6,7 @@
 
 body {
     font-size: 1rem;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 98%);
     font-family: 'Rubik',
         sans-serif;
     font-weight: 500;
@@ -14,8 +14,8 @@ body {
 }
 
 .background-sidebar {
-    width: 50%;
-    height: 550px;
+    width: 39%;
+    height: 702px;
     position: absolute;
     z-index: -1;
 }
@@ -23,15 +23,18 @@ body {
 .violet-background-sidebar {
     background-color: hsl(278, 99%, 62%);
     top: 0;
-    border-bottom-right-radius: 113%;
+    border-bottom-left-radius: 82%;
+    border-bottom-right-radius: 54%;
+    left: -188px;
 }
 
 .grey-background-sidebar {
     background-color: hsl(290, 37%, 97%);
     margin-left: auto;
-        right: 0;
-        top: 465px;
-        border-top-left-radius: 113%;
+    right: -188px;
+    top: 86px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 53%;
 }
 
 form {
@@ -264,26 +267,23 @@ i {
         display: flex;
         justify-content: space-between;
         width: 60%;
-        margin: 0 auto;
+        margin: 4.5em auto;
         align-items: center;
         padding-top: 3.2em;
     }
 
-    .grey-background-sidebar {
-        top: 85px;
-    }
-
-    .paragraph-holder, .chat-wrapper {
+    .paragraph-holder,
+    .chat-wrapper {
         margin: 0;
     }
 
-div.paragraph-holder {
-    width: 54%;
+    div.paragraph-holder {
+        width: 55%;
     }
 
     .paragraph-holder p {
-    font-size: 1em;
-    text-align: left;
+        font-size: 1em;
+        text-align: left;
     }
 
     .paragraph-holder h1 {
@@ -324,8 +324,4 @@ div.paragraph-holder {
         height: 28px;
     }
 
-    body {
-        background-color: aqua;
-    }
-    
 }
