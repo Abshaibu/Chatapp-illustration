@@ -11,32 +11,36 @@ body {
         sans-serif;
     font-weight: 500;
     line-height: 1.4;
+}
+
+main {
+    position: relative;
     overflow-x: hidden;
 }
 
 .background-sidebar {
-    width: 406px;
     position: absolute;
     z-index: -1;
 }
 
 .violet-background-sidebar {
+    width: 80%;
+    height: 560px;
     background-color: hsl(278, 99%, 62%);
-    top: 0;
-    border-bottom-left-radius: 45%;
-    border-bottom-right-radius: 54%;
-    left: -221px;
-    height: 559px;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 87%;
+        top: -2px;
+        left: -112px;
 }
 
 .grey-background-sidebar {
+    width: 94%;
+    height: 528px;
     background-color: hsl(290, 37%, 97%);
-    margin-left: auto;
-    right: -218px;
-    top: 481px;
-    border-top-left-radius: 48%;
-    border-top-right-radius: 53%;
-    height: 526px;
+    right: -162px;
+    bottom: 0;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 30%;
 }
 
 form {
@@ -45,7 +49,6 @@ form {
 }
 
 .chat-wrapper {
-    /* visibility: hidden; */
     width: 80%;
     max-width: 270px;
     background: hsl(270, 20%, 96%);
@@ -247,6 +250,7 @@ i {
     width: 90%;
     color: hsl(271, 36%, 24%);
     margin: 4em auto 2em;
+    position: relative;
 }
 
 .paragraph-holder h1 {
@@ -264,77 +268,41 @@ i {
 }
 
 
+@media screen and (min-width:500px) {
+    .violet-background-sidebar {
 
-@media screen and (min-width: 500px) {
-    .container {
+    }
+
+    .grey-background-sidebar {
+
+    }
+
+    .paragraph-holder {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .body {
+        width: 85%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        width: 60%;
-        margin: 4.5em auto;
         align-items: center;
-        padding-top: 3.2em;
     }
 
-    .paragraph-holder,
-    .chat-wrapper {
-        margin: 0;
-    }
+    .paragraph-holder {
 
-    div.paragraph-holder {
-        width: 55%;
     }
-
-    .paragraph-holder p {
-        font-size: 1em;
-        text-align: left;
-    }
-
-    .paragraph-holder h1 {
-        font-size: 2.3em;
-        font-weight: 500;
-        text-align: left;
-    }
-
-    .chat-wrapper {
-        flex: 2;
-    }
-
-    div.attribution {
-        margin-bottom: 0;
-    }
-
-    .chat-wrapper {
-        border: 9px solid hsl(0, 0%, 100%);
-    }
-
-    .chat-header {
-        border-radius: 32px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        height: 64px;
-    }
-
-    .notch {
-        min-height: 28px;
-        top: -9px;
-    }
-
-    .img-block img {
-        height: 40px;
-    }
-
-    .profile-block img {
-        height: 28px;
-    }
-
 }
+
 
 @media screen and (min-width:1300px) {
     .background-sidebar {
         width: 39%;
         height: 702px;
         position: absolute;
-        z-index: -1;
+        /* z-index: -1; */
     }
 
     .violet-background-sidebar {
