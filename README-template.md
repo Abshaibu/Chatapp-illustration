@@ -16,6 +16,8 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ## Overview
 
+It was fun building this even though at some point it made me nearly lose it but overall its a good challenge for people looking to boost or hone their HTML and CSS skills.
+
 ### The challenge
 
 Users should be able to:
@@ -37,7 +39,7 @@ Users should be able to:
 
 I started with mobile view. But before that I did the entire markup first assigning different 
 div's, classes and containers. Went on to style from the body to the background of the body then
- started from the very top of the design from what comes first to what follows th the next until
+ started from the very top of the design from what comes first to what follows next until
  i completed the project. After these i went on to look at the project and apply minor fixes to 
 things I might have missed.
 
@@ -45,37 +47,19 @@ things I might have missed.
 
 - CSS custom properties
 - Flexbox
+-Little to no Semantic
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+There is indeed no one particular method of developing a webpage/website. I also observed that patience, determination, even giving up is key to a better productivity. If all options fail when stuck on a project, ignoring that project entirely is actually a very good method of helping one resolve problems he/she might have when working.
 
 ### Continued development
 
 -Responsive Design
 -Positioning
 -Mobile First Approach
+-Comments
 
 ## Author
 
