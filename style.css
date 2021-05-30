@@ -15,7 +15,7 @@ body {
 
 main {
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .background-sidebar {
@@ -46,6 +46,10 @@ main {
 form {
     width: 100%;
     padding: 0 .5em 0 1.3em;
+}
+
+input:disabled {
+    background-color: hsl(0, 0%, 100%);
 }
 
 .chat-wrapper {
@@ -268,7 +272,7 @@ i {
 }
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:501px) {
     .violet-background-sidebar {
 
     }
@@ -291,8 +295,8 @@ i {
         align-items: center;
     }
 
-    .paragraph-holder {
-
+    .paragraph-holder h1 {
+font-size: 2.3em;
     }
 }
 
@@ -302,7 +306,6 @@ i {
         width: 39%;
         height: 702px;
         position: absolute;
-        /* z-index: -1; */
     }
 
     .violet-background-sidebar {
@@ -314,8 +317,7 @@ i {
     }
 
     .grey-background-sidebar {
-        /* background-color: hsl(290, 37%, 97%); */
-        background-color: hsl(342, 87%, 33%);
+        background-color: hsl(290, 37%, 97%);
         margin-left: auto;
         right: -188px;
         top: 86px;
